@@ -285,7 +285,32 @@ section {
     margin-top: 20px;
 }
 
+.about-item:hover {
+    background-color: #f4c613;
+}
 
+.about-item:hover i, 
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-30px);
+}
+
+/*Smooth transition*/
+.about-item,
+.about-item i,
+.about-item h3,
+.about-item p,
+.about-item hr{
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
 
 
 
