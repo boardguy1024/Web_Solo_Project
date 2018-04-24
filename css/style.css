@@ -396,7 +396,12 @@ ul.social-list li:nth-child(3 ) a:hover {
     border-color: transparent;
 }
 
-
+.owl-carousel [class*=owl-] {
+    color: #212226;
+    font-size: 40px;
+    background: none;
+    margin: 0;
+}
 
 
 
