@@ -403,7 +403,50 @@ ul.social-list li:nth-child(3 ) a:hover {
     margin: 0;
 }
 
+/*=================================
+|   |   |   | Skill Section
+=====================================*/
+.skill {
+    margin-bottom: 30px;
+}
+.skill h4 {
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+}
 
+.progress {
+    margin: 0;
+    height: 25px;
+    border-radius: 0;
+    background: #f4f4f4;
+    overflow: visible;
+}
+.progress-bar {
+    background-color: #f4c613;
+    position: relative;
+}
+
+/*progress bar 안에있는 span요소를 이용해서 프로그레스바 밖에 사각박스를 표시한다. */
+.progress-bar span {
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    position: absolute;
+    padding: 2.5px;
+    left: 97%;
+    top: -40px;
+}
+
+.progress-bar span:before {
+    content: "";
+    border-top: 8px solid black;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 16%;
+}
 
 
 
