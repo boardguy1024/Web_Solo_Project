@@ -173,7 +173,7 @@ section {
 .btn-home {
     color: #fff;
     border: 1px solid #fff;
-} 
+}
 
 .btn-home:hover,
 .btn-home:focus {
@@ -207,9 +207,11 @@ section {
 /*=================================
 |   |   |   | Content Boxes
 =====================================*/
+
 .content-box-lg {
     padding: 120px 0;
 }
+
 .content-box-md {
     padding: 100px 0;
 }
@@ -225,7 +227,7 @@ section {
     text-transform: uppercase;
     word-spacing: 9px;
     display: inline-block;
-    -webkit-transform: rotate(-90deg);    
+    -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: relative;
     top: 80px;
@@ -262,18 +264,20 @@ section {
 .about-item {
     background-color: #fff;
     padding: 80px 30px;
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .about-item i {
     font-size: 42px;
     margin: 0;
 }
+
 .about-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .about-item hr {
     width: 45px;
     height: 3px;
@@ -281,6 +285,7 @@ section {
     margin: 0 auto;
     border: none;
 }
+
 .about-item p {
     margin-top: 20px;
 }
@@ -289,11 +294,12 @@ section {
     background-color: #f4c613;
 }
 
-.about-item:hover i, 
+.about-item:hover i,
 .about-item:hover h3,
 .about-item:hover p {
     color: #fff;
 }
+
 .about-item:hover hr {
     background-color: #fff;
 }
@@ -303,11 +309,12 @@ section {
 }
 
 /*Smooth transition*/
+
 .about-item,
 .about-item i,
 .about-item h3,
 .about-item p,
-.about-item hr{
+.about-item hr {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
 }
@@ -324,10 +331,11 @@ section {
 .team-member {
     margin: 8px;
     position: relative;
-    
+
 }
+
 .team-member-overlay {
-    background-color: rgba(30,30,30,.9);
+    background-color: rgba(30, 30, 30, .9);
     position: absolute;
     top: 0;
     left: 0;
@@ -350,6 +358,7 @@ section {
     font-size: 16px;
     margin: 0;
 }
+
 .team-member-info p {
     color: #fff;
     font-size: 14px;
@@ -363,10 +372,12 @@ section {
 /*=================================
 |   |   |   | Social Icons
 =====================================*/
+
 ul.social-list {
     padding: 0;
     margin-top: 20px;
 }
+
 ul.social-list li {
     display: inline-block;
     padding: 0;
@@ -387,11 +398,13 @@ ul.social-list li:nth-child(1) a:hover {
     background: #3b5998;
     border-color: transparent;
 }
+
 ul.social-list li:nth-child(2) a:hover {
     background: #00aced;
     border-color: transparent;
 }
-ul.social-list li:nth-child(3 ) a:hover {
+
+ul.social-list li:nth-child(3) a:hover {
     background: #bc2a8d;
     border-color: transparent;
 }
@@ -406,9 +419,11 @@ ul.social-list li:nth-child(3 ) a:hover {
 /*=================================
 |   |   |   | Skill Section
 =====================================*/
+
 .skill {
     margin-bottom: 30px;
 }
+
 .skill h4 {
     line-height: 62px;
     margin: 0;
@@ -422,12 +437,14 @@ ul.social-list li:nth-child(3 ) a:hover {
     background: #f4f4f4;
     overflow: visible;
 }
+
 .progress-bar {
     background-color: #f4c613;
     position: relative;
 }
 
 /*progress bar 안에있는 span요소를 이용해서 프로그레스바 밖에 사각박스를 표시한다. */
+
 .progress-bar span {
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
@@ -448,6 +465,31 @@ ul.social-list li:nth-child(3 ) a:hover {
     left: 16%;
 }
 
+/*=================================
+|   |   |   | Statements
+=====================================*/
 
+#statement {
+    background: url(../img/tech/tech-quote.jpg) center fixed no-repeat;
+    background-size: cover;
 
+    /*background imageを固定させる
+     background-attachment: fixed;
+    */
+}
 
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#tech-statement h3 {
+    color: #fff;
+    font-size: 28px;
+}
+
+#tech-statement p {
+    color: #f4c613;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
