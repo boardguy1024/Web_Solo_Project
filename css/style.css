@@ -598,5 +598,31 @@ ul.social-list li:nth-child(3) a:hover {
     transition: border-color 300ms linear;
 }
 
+/*=================================
+|   |   |   | Portfolio Sections
+=====================================*/
+#portfolio .vertical-heading {
+    margin-bottom: 50px;
+}
+
+/*
+class*=col-は　col- から始まるclassすべてをselectする意味
+*/
+.row.no-gutters [class*=col-] {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
