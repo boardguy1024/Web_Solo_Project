@@ -55,4 +55,31 @@ $(function () {
     });
 });
 
+/*=================================
+|   |   |   | Portfolio
+=====================================*/
+
+$(window).on('load', function(){
+   
+    //Initialize Isotope
+    $("#isotope-container").isotope({
+       //options 
+    });
+    
+    //filter items on buttons clicked
+    $("#isotope-filters").on('click','button', function() {
+        
+        // get filter value
+        var filterValue = $(this).attr('data-filter');
+        $("#isotope-container").isotope({ filter: filterValue });
+    });
+});
+
+
+
+
+
+
+
+
 
