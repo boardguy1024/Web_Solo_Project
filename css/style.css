@@ -612,6 +612,35 @@ class*=col-は　col- から始まるclassすべてをselectする意味
     padding: 0;
 }
 
+/*=================================
+|   |   |   | Portfolio Sections
+=====================================*/
+#isotope-filters {
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0;
+}
+
+#isotope-filters button {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-box-shadow: none;    
+    box-shadow: none;
+    padding-right: 35px;
+}
+
+#isotope-filters button span {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#isotope-filters button.active span  {
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
 
 
 

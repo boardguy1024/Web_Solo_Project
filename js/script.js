@@ -73,6 +73,10 @@ $(window).on('load', function(){
         var filterValue = $(this).attr('data-filter');
         $("#isotope-container").isotope({ filter: filterValue });
     });
+    
+    // active button
+    $("#isotope-filters").find('.active').removeClass('active');
+    $(this).addClass('active');
 });
 
 
