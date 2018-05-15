@@ -605,6 +605,10 @@ ul.social-list li:nth-child(3) a:hover {
     margin-bottom: 50px;
 }
 
+.portfolio-item {
+    overflow: hidden;
+}
+
 /*
 class*=col-は　col- から始まるclassすべてをselectする意味
 */
@@ -641,8 +645,19 @@ class*=col-は　col- から始まるclassすべてをselectする意味
     border-bottom: 3px solid #f4c613;
 }
 
+/*Img Zoom Effect*/
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
 
-
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
 
 
 
