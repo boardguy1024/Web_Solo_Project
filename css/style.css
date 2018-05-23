@@ -603,6 +603,10 @@ ul.social-list li:nth-child(3) a:hover {
 |   |   |   | Portfolio Sections
 =====================================*/
 
+#portfolio {
+    padding-bottom: 160px;
+}
+
 #portfolio .vertical-heading {
     margin-bottom: 50px;
 }
@@ -734,4 +738,59 @@ class*=col-は　col- から始まるclassすべてをselectする意味
 
 .portfolio-item:hover .portfolio-item-overlay {
     opacity: 1;
+}
+
+/*=================================
+|   |   |   | Test Imonials
+=====================================*/
+
+#testimonials {
+    background: #f4f4f4;
+    padding-bottom: 45px;
+    overflow: visible;
+}
+
+#testimonials .vertical-heading {
+    padding: 80px 0;
+}
+
+#testimonial-slider {
+    background: #f4c613;
+    top: -120px;
+}
+
+.testimonial {
+    padding: 20px 45px 0 45px;
+    color: #fff;
+}
+
+.testimonial .row {
+    margin-bottom: 25px;
+}
+
+#testimonials .starts {
+    font-size: 18px;
+    margin: 25px 0 10px 0;
+}
+
+#testimonials h3 {
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.testimonial p {
+    line-height: normal;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.author .author-name-des {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.author .author-name-des p {
+    margin: 5px 0;
 }
