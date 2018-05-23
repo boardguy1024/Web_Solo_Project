@@ -175,6 +175,11 @@ section {
     border: 1px solid #fff;
 }
 
+.btn-yellow {
+    background: #f4c613;
+    color: #fff;
+}
+
 .btn-home:hover,
 .btn-home:focus {
     background: #f4c613;
