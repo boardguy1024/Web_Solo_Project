@@ -799,3 +799,78 @@ class*=col-は　col- から始まるclassすべてをselectする意味
 .author .author-name-des p {
     margin: 5px 0;
 }
+
+/*=================================
+|   |   |   | Pricing
+=====================================*/
+
+
+.pricing-table {
+    -webkit-box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 32px 20px;
+    -webkit-transition: all 400ms linear;   
+    transition: all 400ms linear;
+}
+
+.pricing-table:hover {
+    background: #f4c613;
+    
+}
+
+.pricing-table .type h4 {
+    color: #f4c613;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.pricing-table .price {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.pricing-table .price h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0 0 0 10px;
+}
+
+.pricing-table .price h2 span {
+    font-family: "Raleway", sans-serif;
+}
+
+.pricing-table .price h2 span.dollar {
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
