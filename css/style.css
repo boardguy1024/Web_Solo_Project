@@ -990,7 +990,7 @@ class*=col-は　col- から始まるclassすべてをselectする意味
 .stats-item:hover i {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
-    color: #fff;
+    color: #212226;
 }
 
 
