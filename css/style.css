@@ -223,6 +223,10 @@ section {
     padding: 100px 0;
 }
 
+.content-box-sm {
+    padding: 90px 0;
+}
+
 /*=================================
 |   |   |   | Vertical Headings
 =====================================*/
@@ -992,6 +996,46 @@ class*=col-は　col- から始まるclassすべてをselectする意味
     transform: translateY(-20px);
     color: #212226;
 }
+
+
+/*=================================
+|   |   |   | Client
+=====================================*/
+#clients .horizontal-heading {
+    margin-bottom: 30px;
+    padding: 45px 0 0 0;
+}
+
+.client {
+    padding: 0 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.client img {
+    display: inline-block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
