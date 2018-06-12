@@ -1087,12 +1087,42 @@ class*=col-は　col- から始まるclassすべてをselectする意味
     margin: 4px;
 }
 
+/*=================================
+|   |   |   | Contact
+=====================================*/
+
+/* Cpontact Left*/
+#contact-left p {
+    margin: 25px 0 20px;
+}
+
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+
+ul.office-details li {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 12px;
+    display: flex;
+}
 
 
+ul.office-details li i {
+    font-size: 20px;
+    width: 30px;
+}
 
+#contact-left ul.social-list li a {
+   color: #212226;
+   border: 1px solid #212226;
+   text-align: center;
+}
 
-
-
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+}
 
 
 
