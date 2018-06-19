@@ -157,7 +157,8 @@ $(window).on('load', function() {
     // Add Marker
     var marker = new google.maps.Marker({
         position: myLating,
-        map: map
+        map: map,
+        title: "Click to see address"
     })
     
     // Add Info Window
