@@ -139,3 +139,56 @@ $(function () {
     });
 });
 
+/*=================================
+|   |   |   | Google Maps
+=====================================*/
+
+$(window).on('load', function() {
+    
+    // Map Variable
+   var addressString = "kokuryocho"; 
+   var myLating = {lat: 35.644624, lng: 139.563622};
+    
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: myLating
+    });
+    
+    // Add Marker
+    var marker = new google.maps.Marker({
+        position: myLating,
+        map: map
+    })
+    
+    // Add Info Window
+    var infoWindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+    
+    // Show info window when user clicks marker
+    marker.addListener('click', function() {
+        infoWindow.open(map, marker);
+    })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
