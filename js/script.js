@@ -172,9 +172,38 @@ $(window).on('load', function() {
     })
 });
 
+/*=================================
+|   |   |   | Navigation
+=====================================*/
 
-
-
+/* Show & Hide White Navigation */
+$(function() {
+    
+    // show/hide nav on page load
+    showHideNav();
+    
+    /*Called when Scrolling on window browser*/
+    $(window).scroll(function() {
+        
+        
+        // show/hide nav on window's scroll
+        showHideNav();
+       
+    });
+    
+    function showHideNav() {
+         if ($(window).scrollTop() > 50 ) {
+            $("nav").addClass("white-nav-top");
+            
+            // Show Dark logo
+            $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+        } else {
+             $("nav").removeClass("white-nav-top");
+            // Show White logo
+            $(".navbar-brand img").attr("src", "img/logo/logo.png");
+        }
+    }
+});
 
 
 
