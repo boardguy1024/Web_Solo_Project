@@ -205,6 +205,23 @@ $(function() {
     }
 });
 
+// Smooth Scrolling
+$(function() {
+    $("a.smooth-scroll").click(function(event) {
+        //要素のDefaultActionがTriggerされないようにする
+       event.preventDefault();
+        
+        //Get section id like #about, #serviece. etc..
+        
+        // this means clicked this link button 
+        var section_id = $(this).attr("href");
+        
+        $("html, body").animate({
+            scrollTop: $(section_id).offset().top
+        }, 1000);
+    });
+});
+
 
 
 
