@@ -217,8 +217,8 @@ $(function() {
         var section_id = $(this).attr("href");
         
         $("html, body").animate({
-            scrollTop: $(section_id).offset().top
-        }, 1000);
+            scrollTop: $(section_id).offset().top - 64
+        }, 1000, "easeInOutExpo");
     });
 });
 
