@@ -190,6 +190,21 @@ section {
 }
 
 /*=================================
+|   |   |   | Back To Top
+=====================================*/
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 14px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: none;
+
+}
+
+
+/*=================================
 |   |   |   | Arrow Down
 =====================================*/
 

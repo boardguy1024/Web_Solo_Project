@@ -197,10 +197,16 @@ $(function() {
             
             // Show Dark logo
             $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+            
+            //Show back to top button
+            $("#back-to-top").fadeIn(); 
         } else {
              $("nav").removeClass("white-nav-top");
             // Show White logo
             $(".navbar-brand img").attr("src", "img/logo/logo.png");
+            
+             //Show back to top button
+            $("#back-to-top").fadeOut(); 
         }
     }
 });
@@ -221,7 +227,6 @@ $(function() {
         }, 1000, "easeInOutExpo");
     });
 });
-
 
 
 
