@@ -3,33 +3,59 @@
 =====================================*/
 
 /* Large Devices (Desktop & Laptops)*/
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1299px) {
     
-    #home-heading h1 {
-        color: blue;
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;
     }
 }
 
 /* Medium Divices (Lanscape Tablets & Medium Desktops )*/
 @media (min-width: 992px) and (max-width: 1199px) {
     
-    #home-heading h1 {
-        color: red;
+       /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
     }
+    
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    
+    /* Services 02 */
+    
+
 }
 
 /* Small Divices (Portrait Tablets & Small Desktops )*/
 @media (min-width: 768px) and (max-width: 991px) {
     
-    #home-heading h1 {
-        color: yellow;
+        /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
     }
+    
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    
+    #home-text p {
+        font-size: 13px:
+    }
+    
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    
+    
 }
 
 /* Extra Small Divices (Landscape Phone & Portrait Tablets )*/
 @media (max-width: 767px) {
-    
-    #home-heading h1 {
-        color: green;
-    }
 }
